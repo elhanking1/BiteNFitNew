@@ -33,14 +33,20 @@
     }
 
     .content-wrapper {
-      transform: scale(1.4);
+      transform: scale(1.5); /* Thoda aur bada zoom */
       transition: transform 0.3s ease;
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 12px 25px rgba(0, 123, 255, 0.2);
+      max-width: 550px;
+      width: 90%;
     }
 
     .logo {
       width: 180px;
       height: auto;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       animation: pulse 3s infinite;
       border-radius: 20px;
     }
@@ -62,13 +68,13 @@
 
     h1 {
       color: #222;
-      margin-bottom: 10px;
-      font-size: 38px;
+      margin-bottom: 15px;
+      font-size: 36px;
     }
 
     p {
       color: #555;
-      margin-bottom: 30px;
+      margin-bottom: 35px;
       font-size: 18px;
     }
 
@@ -77,19 +83,19 @@
       border: none;
       border-radius: 40px;
       color: white;
-      padding: 22px 50px;
+      padding: 18px 45px;
       font-size: 22px;
       font-weight: 600;
       cursor: pointer;
       transition: all 0.3s ease;
-      box-shadow: 0 12px 20px rgba(0, 123, 255, 0.3);
+      box-shadow: 0 14px 24px rgba(0, 123, 255, 0.35);
       text-decoration: none;
       display: inline-block;
     }
 
     .download-button:hover {
-      transform: scale(1.05) rotate(-1deg);
-      box-shadow: 0 16px 25px rgba(0, 123, 255, 0.45);
+      transform: scale(1.07) rotate(-1deg);
+      box-shadow: 0 18px 30px rgba(0, 123, 255, 0.5);
     }
   </style>
 </head>
@@ -100,10 +106,8 @@
       alt="BiteNFit Logo"
       class="logo"
     />
-
     <h1>Download BiteNFit</h1>
     <p>Click the button below to download the latest version of the app.</p>
-
     <a
       href="https://github.com/elhanking1/BiteNFitNew/releases/download/v2.0/BiteNFit.apk"
       class="download-button"
