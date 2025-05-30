@@ -1,5 +1,5 @@
 const latestVersionUrl = "https://raw.githubusercontent.com/elhanking1/BiteNFitNew/main/latest_version.json";
-const currentVersionCode = 7; // Apne app ka current version yahan set karo
+const currentVersionCode = 9; // Apne app ka current version yahan set karo
 
 fetch(latestVersionUrl)
   .then(response => response.json())
