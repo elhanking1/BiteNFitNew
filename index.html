@@ -96,7 +96,11 @@
     <button class="download-button" onclick="buttonClick()">Download APK</button>
   </div>
 
-  <script src="update-check.js"></script>
-  <script src="script.js"></script>
+  <script>
+    function buttonClick() {
+      const apkUrl = "https://github.com/elhanking1/BiteNFitNew/releases/download/v4.0/BiteNFitv4.apk";
+      window.open(apkUrl, '_blank'); // Opens in browser
+    }
+  </script>
 </body>
 </html>
